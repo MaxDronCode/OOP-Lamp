@@ -4,9 +4,9 @@ This is an educational project whose purpose is to practice and become familiar 
 ## Project Description ✍🏼
 This application creates a Lamp object, which has certain attributes, a single constructor, and many unique methods which the program executes as a form of testing.
 
-<img src="img/utilities.png" alt="Overview" width="600"/>
+<img src="img/attributes.png" alt="Overview" width="600"/>
 
-<img src="img/utilities.png" alt="Overview" width="600"/>
+<img src="img/methods.png" alt="Overview" width="600"/>
 
 The application is organized into 3 packages. Controllers, where the [main](/src/main/kotlin/controllers/Main.kt) executable file is located, the orchestra director that runs the program. Models, where we place the data models, in this case, the [lamp](/src/main/kotlin/models/Lamp.kt). And Utils, where we will have auxiliary dependencies, a [utilities](/src/main/kotlin/utils/utilities.kt) file, and a [static class](/src/main/kotlin/utils/consoleColors.kt) that facilitates colored screen printing.
 
