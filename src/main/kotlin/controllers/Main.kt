@@ -31,4 +31,5 @@ fun main() {
     livingRoomLamp.intensityUp()
     livingRoomLamp.intensityUp()
     livingRoomLamp.intensityUp()
+
 }

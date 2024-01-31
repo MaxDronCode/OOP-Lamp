@@ -2,6 +2,8 @@ package models
 
 import utils.*
 
+var idNum : Int = 0
+
 class Lamp {
     // Attributes
     private var id : String = ""
@@ -10,7 +12,7 @@ class Lamp {
     private var intensity : Int = 1
     private val colorOptions : Array<String> = arrayOf("white","yellow","red","blue","green","cyan")
     private var colorIndex : Int = 0
-    private var idNum : Int = 0
+    //private var idNum : Int = 0
 
     // Constructors -----------------------
     constructor(id:String){
